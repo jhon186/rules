@@ -1,20 +1,17 @@
 /* 
-脚本功能：解锁keep会员视频
+keep解锁会员
 软件版本：7.17.0
 更新时间：2021.12.26
+使用方法：不要点击课程预览，往下滑直接点击课程阶段
 
-//使用方法：不要点击课程预览，往下滑直接点击课程阶段
-# keep解锁会员
-
+********************************
 Quantumult X:
 
 [rewrite_local]
 ^https://(.+).gotokeep.com(/athena/v5/people/my|/nuocha/plans) url script-response-body https://raw.githubusercontent.com/jhon186/rules/master/js/keep.js
 
 [mitm] 
-
 hostname = *.gotokeep.com
-
 
 ********************************/
  
