@@ -5,7 +5,7 @@ Fit健身会员 （by黑黑酱）
 Quantumult X:
 
 [rewrite_local]
-^https:\/\/bea\.sportq\.com\/SFitWeb\/sfit\/getUserBaseInfo url script-response-body fit.js
+^https:\/\/bea\.sportq\.com\/SFitWeb\/sfit\/getUserBaseInfo url script-response-body https://raw.githubusercontent.com/jhon186/rules/master/QuantumultX/fit.js
 
 [MITM]
 hostname = bea.sportq.com
